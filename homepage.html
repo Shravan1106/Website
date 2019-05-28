@@ -1,62 +1,72 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="homepage.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="homepage.css">
+<script src="homepage.js"></script>
+
 </head>
 <body>
- 
-<div class="header">
-    <h1>CHAITANYA HIGH SCHOOL</h1>
-</div>
-<div class="navbar">
-    <ul>
-        <li class="active">Home</li>
-        <li>Administration</li>
-        <li>Admission</li>
-        <li>Academics</li>
-        <li>Curriculum</li>
-        <li>Campus</li>
-        <li>People</li>
-    </ul>
-
-</div>
-<div class="image">
-    <img src="images/2.jpeg" alt="image can't be loaded...">
-</div>
-<hr style="color:black" >
-<div class="notification">
-    <div class="column">
-        <h2>NEWS</h2>
-        <hr>
-        <ul>
-            <li>some data</li>
-            <li>some data</li>
-            <li>some data</li>
-            <li>some data</li>
-        </ul>
-    </div>
-    <div class="column">
-        <h2>Achievements</h2>
-        <hr>
-        <ul>
-            <li>some data</li>
-            <li>some data</li>
-            <li>some data</li>
-            <li>some data</li>
-        </ul>
-    </div>
-    <div class="column">
-        <h2>Current Events</h2>
-        <hr>
-        <ul>
-            <li>some data</li>
-            <li>some data</li>
-            <li>some data</li>
-            <li>some data</li>
-        </ul>
-    </div>
-    
+<div>
+  <h1>CHAITANYA HIGH SCHOOL</h1>
 
 </div>
 
+<div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  <a href="#administration">Administration</a>
+  <a href="#academics">Academics</a>
+  <a href="#admission">Admission</a>
+  <a href="#campus">Campus</a>
+  <a href="#people">People</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/v1.jpeg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Jane Doe</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="images/v2.jpeg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Mike Ross</h2>
+              <p class="title">Art Director</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/v3.jpeg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Doe</h2>
+              <p class="title">Designer</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
 </body>
+</html>
